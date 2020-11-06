@@ -1,0 +1,56 @@
+body {
+    background-color:#aab6fa;
+}
+header {
+    background-color: black;
+    height: 140px;
+}
+#icono{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+#menu{
+    padding: 35px;
+}
+#menu ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+#menu ul li {
+    background-color:#2e518b;
+}
+#menu ul a {
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding:10px;
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform:uppercase;
+    letter-spacing:1px;
+}
+#menu ul li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+}
+#menu ul li:hover {
+    background:#5b78a7;
+}
+h1, h2 {
+    color: white;
+    margin-top: 20px;
+}
+th {
+    color:white;
+}
+td {
+    color: white;
+}
+label {
+    color: white;
+}
