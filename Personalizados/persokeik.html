@@ -10,146 +10,599 @@
 
 </head>
 <body>
-    <header>
-        <img id="logo" src="../imagenes/logo.png" alt="logo">
-        <nav id="menu">
-          <ul>
-            <li><a href="../InicioPasteleria/index.html">Inicio</a></li>
-            <li><a href="../Servicios/servicioskeik.html">Servicios</a></li>
-            <li><a href="../Pedidos/pedidoskeik.html">Pedidos</a></li>
-            <li><a href="../Acerca/acercadekeik.html">Acerca de</a></li>
-            <li><a href="../Contacto/contactokeik.html">Contacto</a></li>
-          </ul>
-          </nav>
-         </header>
+  <nav class="menu">
+    <a href="../Reposteria2/Index.html" class="active">Keik Reposteria</a>
+    <a href="../Servicios/servicioskeik.html">Catálogo</a>
+    <a href="../Pedidos/pedidoskeik.html">Personaliza tu pastel</a>
+    <a href="../Acerca/acercadekeik.html">Acerca de</a>
+    <a href="../Contacto/contactokeik.html">Contacto</a>
+ </nav>
 <br>
 <br>
         <h2>Pasteles Personalizados - Cumpleaños o Temporada</h2>
 <br>
-         <table class="table3">
-           
-            <tbody>
-                <tr>
-                    <td scope="col"><img src="../imagenes/eventos/pastel3.jpg" alt="cake"></td>
-                    <td scope="col"><img src="../imagenes/eventos/pastel30.jpg" alt="cake"></td>
-                    <td scope="col"><img src="../imagenes/eventos/pastel31.jpg" alt="cake"></td>
-                    <td scope="col"><img src="../imagenes/eventos/pastel32.jpg" alt="cake"></td>
-                    <td scope="col"><img src="../imagenes/eventos/pastel33.jpg" alt="cake"></td>
-                </tr>
-                <tr>
-                    <td id ="tipo">Tematicos</td>
-                    <td id ="tipo">Hombre</td>
-                    <td id ="tipo">Mujer</td>
-                    <td id ="tipo">Juvenil</td>
-                    <td id ="tipo">Colores</td>
-                </tr>
-              <tr>
-                <th scope="row"><img src="../imagenes/eventos/pastel34.jpg" alt="cake"></th>
-                <td><img src="../imagenes/eventos/pastel35.jpg" alt="cake"></td>
-                <td><img src="../imagenes/eventos/pastel4.jpg" alt="cake"></td>
-                <td><img src="../imagenes/eventos/pastel49.jpg" alt="cake"></td>
-                <td><img src="../imagenes/eventos/pastel50.jpg" alt="cake"></td>
-              </tr>
-              <tr>
-                <td id ="tipo">Graduación</td>
-                <td id ="tipo">Mamá</td>
-                <td id ="tipo">Halloween</td>
-                <td id ="tipo">Valentine's Day</td>
-                <td id ="tipo">Merry Christmas</td>
-            </tr>   
-              <tr>
-                <th scope="row"><img src="../imagenes/eventos/pastel7.jpg" alt="cake"></th>
-                <td><img src="../imagenes/eventos/pastel9.jpg" alt="cake"></td>
-                <td><img src="../imagenes/eventos/pastel29.jpg" alt="cake"></td>
-                <td><img src="../imagenes/eventos/pastel1.jpg" alt="cake"></td>
-                <td><img src="../imagenes/eventos/pastel14.jpg" alt="cake"></td>
-              </tr>
-              <tr>
-                <td id ="tipo">Covid-19</td>
-                <td id ="tipo">Rodeo</td>
-                <td id ="tipo">Cumpleaños</td>
-                <td id ="tipo">Revelación</td>
-                <td id ="tipo">Loteria</td>
-            </tr>
-              <tr>
-                <th scope="row"><img src="../imagenes/eventos/pastel15.jpg" alt="cake"></th>
-                <td><img src="../imagenes/eventos/pastel18.jpg" alt="cake"></td>
-                <td><img src="../imagenes/eventos/pastel19.jpg" alt="cake"></td>
-                <td><img src="../imagenes/eventos/pastel2.jpg" alt="cake"></td>
-                <td><img src="../imagenes/eventos/pastel20.jpg" alt="cake"></td>
-              </tr>
-              <tr>
-                <td id ="tipo">Motorcycle</td>
-                <td id ="tipo">¡Felices 30!</td>
-                <td id ="tipo">Carreras</td>
-                <td id ="tipo">Corean-Cake</td>
-                <td id ="tipo">Mother's Day</td>
-            </tr>
-              <tr>
-                <th scope="row"><img src="../imagenes/eventos/pastel21.jpg" alt="cake"></th>
-                <td><img src="../imagenes/eventos/pastel23.jpg" alt="cake"></td>
-                <td><img src="../imagenes/eventos/pastel27.jpg" alt="cake"></td>
-                <td><img src="../imagenes/eventos/pastel51.jpg" alt="cake"></td>
-                <td><img src="../imagenes/eventos/pastel52.jpg" alt="cake"></td>
-              </tr>
-              <tr>
-                <td id ="tipo">BeerDay</td>
-                <td id ="tipo">Bautizo</td>
-                <td id ="tipo">Butterfly Cake</td>
-                <td id ="tipo">Chocolate Lover</td>
-                <td id ="tipo">Happy Birthday!</td>
-            </tr>
-            </tbody>
-          </table>
-        <br>
-          <h3>Puedes personalizar tu topper para sorprender a esa persona especial</h3>
-          <table class="table4">
-            <thead>
-              <tr>
-                <th scope="col"><img src="../imagenes/toppers/top5.jpg" alt="cake"></th>
-                <th scope="col"><img src="../imagenes/toppers/top6.jpg" alt="cake"></th>
-                <th scope="col"><img src="../imagenes/toppers/top7.jpg" alt="cake"></th>
-                <th scope="col"><img src="../imagenes/toppers/top8.jpg" alt="cake"></th>
-                
-              </tr>
-            </thead>
-          </table>
+<div class="row">
 
+  <div class="col-lg-1 col-md-1 col-sm-1" >
+  <span id="t1"><div align="center"><img src="../imagenes/eventos/pastel3.jpg" alt="cake"></div></span>
+  <br><div class="nombre">Tematicos  <strong>$500</strong></div>
+  </div>
 
+  <div class="col-lg-2 col-md-2 col-sm-2">
+    <div class="info">
+      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+        <input type="hidden" name="cmd" value="_cart">
+        <input type="hidden" name="business" value="keikreposteriaa@hotmail.com">
+        <input type="hidden" name="lc" value="US">
+        <input type="hidden" name="item_name" value="Tematicos">
+        <input type="hidden" name="amount" value="500.00">
+        <input type="hidden" name="currency_code" value="MXN">
+        <input type="hidden" name="button_subtype" value="products">
+        <input type="hidden" name="no_note" value="0">
+        <input type="hidden" name="tax_rate" value="8.000">
+        <input type="hidden" name="shipping" value="50.00">
+        <input type="hidden" name="add" value="1">
+        <input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest">
+        <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+        <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+        </form>
+        
+      </div>
 
-    <div class="abajo">  
-        <table class="table2">
-          <thead>
-            <tr>
-              <th scope="col"></th>
-              <th id="name" scope="col">κέικ</th>
-              <th id="name2" scope="col">Servicio a Domicilio</th>
-              <th scope="col"></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row"></th>
-              <td id="desc">Pesqueria, Nuevo León, México <br></td>
-              <td id="desc">Pasa por el o recibe tus pedidos hasta tu casa. </td>
-              <td id="name3">¡Siguenos en nuestras redes!
-              <a href="https://www.facebook.com/keikbyk/?ref=page_internal" target="_blank"><img src="../imagenes/fbicon.png" alt="Facebook"></a>
-             <a href="https://www.instagram.com/keikbyk/?hl=es-la" target="_blank"><img src="../imagenes/inicon.png" alt="Instagram"></a></td>
-      
-            </tr>
-            <tr></tr>
-            <tr>
-              <th scope="row"></th>
-              <td id="desc">Agenda tu cita - Hechos con amor
-                <img id="heart" src="../imagenes/heart.png" alt="corazon">
-              </td>
-              <td id="desc">Pregunta por los costos de envio</td>
-             
-            </tr>
-          </tbody>
-        </table>
-          
+    <br><br><p><strong>Pan:</strong> Chocolate<br>
+    <strong>Relleno:</strong> Chocolate con nuez<br>
+    <strong>Cobertura:</strong> Fondant<br>
+    <strong>Betún:</strong> Mantequilla<br>
+    <strong>Personas:</strong> 15<br><br>
+    <br><br><br>
+    </p>
     </div>
+
+
+    <div class="col-lg-1 col-md-1 col-sm-1" >
+      <span id="t1"><div align="center"><img src="../imagenes/eventos/pastel30.jpg" alt="cake"></div></span>
+      <br><div class="nombre">Hombre  <strong>$390</strong></div>
+      </div>
+    
+      <div class="col-lg-2 col-md-2 col-sm-2">
+        <div class="info">
+          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+            <input type="hidden" name="cmd" value="_cart">
+            <input type="hidden" name="business" value="keikreposteriaa@hotmail.com">
+            <input type="hidden" name="lc" value="US">
+            <input type="hidden" name="item_name" value="Hombre">
+            <input type="hidden" name="amount" value="390.00">
+            <input type="hidden" name="currency_code" value="MXN">
+            <input type="hidden" name="button_subtype" value="products">
+            <input type="hidden" name="no_note" value="0">
+            <input type="hidden" name="tax_rate" value="8.000">
+            <input type="hidden" name="shipping" value="50.00">
+            <input type="hidden" name="add" value="1">
+            <input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest">
+            <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+            <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+            </form>
+          </div>
+        <br><br><p><strong>Pan:</strong> Vainilla<br>
+          <strong>Relleno:</strong> Queso crema y fresas<br>
+          <strong>Betún:</strong> Mantequilla<br>
+          <strong>Personas:</strong> 15<br><br>
+          <br><br><br>
+          </p>
+        </div>
+
+
+        <div class="col-lg-1 col-md-1 col-sm-1" >
+          <span id="t1"><div align="center"><img src="../imagenes/eventos/pastel20.jpg" alt="cake"></div></span>
+          <br><div class="nombre">Mother's Day <strong>$450</strong></div>
+          </div>
+        
+          <div class="col-lg-2 col-md-2 col-sm-2">
+            <div class="info">
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                <input type="hidden" name="cmd" value="_cart">
+                <input type="hidden" name="business" value="keikreposteriaa@hotmail.com">
+                <input type="hidden" name="lc" value="US">
+                <input type="hidden" name="item_name" value="Mother's Day">
+                <input type="hidden" name="amount" value="450.00">
+                <input type="hidden" name="currency_code" value="MXN">
+                <input type="hidden" name="button_subtype" value="products">
+                <input type="hidden" name="no_note" value="0">
+                <input type="hidden" name="tax_rate" value="8.000">
+                <input type="hidden" name="shipping" value="50.00">
+                <input type="hidden" name="add" value="1">
+                <input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest">
+                <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+                <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                </form>
+              </div>
+            <br><br><p><strong>Pan:</strong> Vainilla<br>
+              <strong>Relleno:</strong> Queso crema cajeta y nuez<br>
+              <strong>Betún:</strong> Mantequilla<br>
+              <strong>Personas:</strong> 15<br><br>
+              <br><br><br>
+              </p>
+            </div>
+
+
+            <div class="col-lg-1 col-md-1 col-sm-1" >
+              <span id="t1"><div align="center"><img src="../imagenes/eventos/pastel32.jpg" alt="cake"></div></span>
+              <br><div class="nombre">Juvenil  <strong>$500</strong></div>
+              </div>
+            
+              <div class="col-lg-2 col-md-2 col-sm-2">
+                <div class="info">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                    <input type="hidden" name="cmd" value="_cart">
+                    <input type="hidden" name="business" value="keikreposteriaa@hotmail.com">
+                    <input type="hidden" name="lc" value="US">
+                    <input type="hidden" name="item_name" value="Juvenil">
+                    <input type="hidden" name="amount" value="500.00">
+                    <input type="hidden" name="currency_code" value="MXN">
+                    <input type="hidden" name="button_subtype" value="products">
+                    <input type="hidden" name="no_note" value="0">
+                    <input type="hidden" name="tax_rate" value="8.000">
+                    <input type="hidden" name="shipping" value="50.00">
+                    <input type="hidden" name="add" value="1">
+                    <input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest">
+                    <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                    
+                  </div>
+                <br><br><p><strong>Pan:</strong> Red Velvet<br>
+                  <strong>Relleno:</strong> Queso crema con mermelada de fresa<br>
+                  <strong>Betún:</strong> Mantequilla<br>
+                  <strong>Personas:</strong> 20<br><br>
+                  <br><br><br>
+                  </p>
+                </div>
+
+
+                <div class="col-lg-1 col-md-1 col-sm-1" >
+                  <span id="t1"><div align="center"><img src="../imagenes/eventos/pastel21.jpg" alt="cake"></div></span>
+                  <br><div class="nombre">BeerDay  <strong>$300</strong></div>
+                  </div>
+                
+                  <div class="col-lg-2 col-md-2 col-sm-2">
+                    <div class="info">
+                      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                        <input type="hidden" name="cmd" value="_cart">
+                        <input type="hidden" name="business" value="keikreposteriaa@hotmail.com">
+                        <input type="hidden" name="lc" value="US">
+                        <input type="hidden" name="item_name" value="BeerDay">
+                        <input type="hidden" name="amount" value="300.00">
+                        <input type="hidden" name="currency_code" value="MXN">
+                        <input type="hidden" name="button_subtype" value="products">
+                        <input type="hidden" name="no_note" value="0">
+                        <input type="hidden" name="tax_rate" value="8.000">
+                        <input type="hidden" name="shipping" value="50.00">
+                        <input type="hidden" name="add" value="1">
+                        <input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest">
+                        <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+                        <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+                        
+                      </div>
+                    <br><br><p><strong>Pan:</strong> Chocolate<br>
+                      <strong>Relleno:</strong> Chocolate con nuez<br>
+                      <strong>Betún:</strong> Mantequilla<br>
+                      <strong>Personas:</strong> 15<br><br>
+                      <br><br><br>
+                      </p>
+                    </div>
+
+
+                    <div class="col-lg-1 col-md-1 col-sm-1" >
+                      <span id="t1"><div align="center"><img src="../imagenes/eventos/pastel34.jpg" alt="cake"></div></span>
+                      <br><div class="nombre">Graduacion  <strong>$700</strong></div>
+                      </div>
+                    
+                      <div class="col-lg-2 col-md-2 col-sm-2">
+                        <div class="info">
+                          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                            <input type="hidden" name="cmd" value="_cart">
+                            <input type="hidden" name="business" value="keikreposteriaa@hotmail.com">
+                            <input type="hidden" name="lc" value="US">
+                            <input type="hidden" name="item_name" value="Graduacion">
+                            <input type="hidden" name="amount" value="700.00">
+                            <input type="hidden" name="currency_code" value="MXN">
+                            <input type="hidden" name="button_subtype" value="products">
+                            <input type="hidden" name="no_note" value="0">
+                            <input type="hidden" name="tax_rate" value="8.000">
+                            <input type="hidden" name="shipping" value="50.00">
+                            <input type="hidden" name="add" value="1">
+                            <input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest">
+                            <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                            
+                          </div>
+                        <br><br><p><strong>Pan:</strong> Chocolate<br>
+                          <strong>Relleno:</strong> Chocolate con nuez<br>
+                          <strong>Cobertura:</strong> Fondant<br>
+                          <strong>Personas:</strong> 25<br><br>
+                          <br><br><br>
+                          </p>
+                        </div>
+
+                     <div class="col-lg-1 col-md-1 col-sm-1" >
+                          <span id="t1"><div align="center"><img src="../imagenes/eventos/pastel27.jpg" alt="cake"></div></span>
+                          <br><div class="nombre">Butterfly Cake  <strong>$650</strong></div>
+                          </div>
+                        
+                          <div class="col-lg-2 col-md-2 col-sm-2">
+                            <div class="info">
+                              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                                <input type="hidden" name="cmd" value="_cart">
+                                <input type="hidden" name="business" value="keikreposteriaa@hotmail.com">
+                                <input type="hidden" name="lc" value="US">
+                                <input type="hidden" name="item_name" value="Butterfly Cake">
+                                <input type="hidden" name="amount" value="650.00">
+                                <input type="hidden" name="currency_code" value="MXN">
+                                <input type="hidden" name="button_subtype" value="products">
+                                <input type="hidden" name="no_note" value="0">
+                                <input type="hidden" name="tax_rate" value="8.000">
+                                <input type="hidden" name="shipping" value="50.00">
+                                <input type="hidden" name="add" value="1">
+                                <input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest">
+                                <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                                </form>
+                    
+                              </div>
+                            <br><br><p><strong>Pan:</strong> Chocolate<br>
+                              <strong>Relleno:</strong> Queso crema con fresa<br>
+                              <strong>Cobertura:</strong> Fondant<br>
+                              <strong>Betún:</strong> Mantequilla<br>
+                              <strong>Personas:</strong> 20<br><br>
+                              <br><br><br>
+                              </p>
+                            </div>
+
+                            <div class="col-lg-1 col-md-1 col-sm-1" >
+                              <span id="t1"><div align="center"><img src="../imagenes/eventos/pastel4.jpg" alt="cake"></div></span>
+                              <br><div class="nombre">Halloween  <strong>$700</strong></div>
+                              </div>
+                            
+                              <div class="col-lg-2 col-md-2 col-sm-2">
+                                <div class="info">
+                                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                                    <input type="hidden" name="cmd" value="_cart">
+                                    <input type="hidden" name="business" value="keikreposteriaa@hotmail.com">
+                                    <input type="hidden" name="lc" value="US">
+                                    <input type="hidden" name="item_name" value="Halloween">
+                                    <input type="hidden" name="amount" value="700.00">
+                                    <input type="hidden" name="currency_code" value="MXN">
+                                    <input type="hidden" name="button_subtype" value="products">
+                                    <input type="hidden" name="no_note" value="0">
+                                    <input type="hidden" name="tax_rate" value="8.000">
+                                    <input type="hidden" name="shipping" value="50.00">
+                                    <input type="hidden" name="add" value="1">
+                                    <input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest">
+                                    <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+                                    <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                                    </form>
+                                    
+                                  </div>
+                                <br><br><p><strong>Pan:</strong> Chocolate<br>
+                                  <strong>Relleno:</strong> Chocolate con nuez<br>
+                                  <strong>Cobertura:</strong> Fondant<br>
+                                  <strong>Personas:</strong> 15<br><br>
+                                  <br><br><br>
+                                  </p>
+                                </div>
+
+                                <div class="col-lg-1 col-md-1 col-sm-1" >
+                                  <span id="t1"><div align="center"><img src="../imagenes/eventos/pastel49.jpg" alt="cake"></div></span>
+                                  <br><div class="nombre">Valentine's Day  <strong>$390</strong></div>
+                                  </div>
+                                
+                                  <div class="col-lg-2 col-md-2 col-sm-2">
+                                    <div class="info">
+                                      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                                        <input type="hidden" name="cmd" value="_cart">
+                                        <input type="hidden" name="business" value="keikreposteriaa@hotmail.com">
+                                        <input type="hidden" name="lc" value="US">
+                                        <input type="hidden" name="item_name" value="Valentine's Day">
+                                        <input type="hidden" name="amount" value="390.00">
+                                        <input type="hidden" name="currency_code" value="MXN">
+                                        <input type="hidden" name="button_subtype" value="products">
+                                        <input type="hidden" name="no_note" value="0">
+                                        <input type="hidden" name="tax_rate" value="8.000">
+                                        <input type="hidden" name="shipping" value="50.00">
+                                        <input type="hidden" name="add" value="1">
+                                        <input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest">
+                                        <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+                                        <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                                        </form>
+                                      </div>
+                                    <br><br><p><strong>Pan:</strong> Red Velvet<br>
+                                      <strong>Relleno:</strong> Queso crema con nuez<br>
+                                      <strong>Betún:</strong> Mantequilla<br>
+                                      <strong>Personas:</strong> 15<br><br>
+                                      <br><br><br>
+                                      </p>
+                                    </div>
+
+                                    <div class="col-lg-1 col-md-1 col-sm-1" >
+                                      <span id="t1"><div align="center"><img src="../imagenes/eventos/pastel50.jpg" alt="cake"></div></span>
+                                      <br><div class="nombre">Merry Christmas  <strong>$300</strong></div>
+                                      </div>
+                                    
+                                      <div class="col-lg-2 col-md-2 col-sm-2">
+                                        <div class="info">
+                                          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                                            <input type="hidden" name="cmd" value="_cart">
+                                            <input type="hidden" name="business" value="keikreposteriaa@hotmail.com">
+                                            <input type="hidden" name="lc" value="US">
+                                            <input type="hidden" name="item_name" value="Merry Christmas">
+                                            <input type="hidden" name="amount" value="300.00">
+                                            <input type="hidden" name="currency_code" value="MXN">
+                                            <input type="hidden" name="button_subtype" value="products">
+                                            <input type="hidden" name="no_note" value="0">
+                                            <input type="hidden" name="tax_rate" value="8.000">
+                                            <input type="hidden" name="shipping" value="50.00">
+                                            <input type="hidden" name="add" value="1">
+                                            <input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest">
+                                            <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+                                            <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                                            </form>
+                                            
+                                          </div>
+                                        <br><br><p><strong>Pan:</strong> Red Velvet<br>
+                                          <strong>Relleno:</strong> Queso crema con nuez<br>
+                                          <strong>Betún:</strong> Mantequilla<br>
+                                          <strong>Personas:</strong> 12<br><br>
+                                          <br><br><br>
+                                          </p>
+                                        </div>
+
+                                        <div class="col-lg-1 col-md-1 col-sm-1" >
+                                          <span id="t1"><div align="center"><img src="../imagenes/eventos/pastel7.jpg" alt="cake"></div></span>
+                                          <br><div class="nombre">Covid-19  <strong>$400</strong></div>
+                                          </div>
+                                        
+                                          <div class="col-lg-2 col-md-2 col-sm-2">
+                                            <div class="info">
+                                              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                                                <input type="hidden" name="cmd" value="_cart">
+                                                <input type="hidden" name="business" value="keikreposteriaa@hotmail.com">
+                                                <input type="hidden" name="lc" value="US">
+                                                <input type="hidden" name="item_name" value="Covid-19">
+                                                <input type="hidden" name="amount" value="450.00">
+                                                <input type="hidden" name="currency_code" value="MXN">
+                                                <input type="hidden" name="button_subtype" value="products">
+                                                <input type="hidden" name="no_note" value="0">
+                                                <input type="hidden" name="tax_rate" value="8.000">
+                                                <input type="hidden" name="shipping" value="50.00">
+                                                <input type="hidden" name="add" value="1">
+                                                <input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest">
+                                                <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+                                                <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                                                </form>
+                                              </div>
+                                            <br><br><p><strong>Pan:</strong> Vainilla con colorante verde<br>
+                                              <strong>Relleno:</strong> Chocolate con nuez<br>
+                                              <strong>Cobertura:</strong> Fondant<br>
+                                              <strong>Personas:</strong> 15<br><br>
+                                              <br><br><br>
+                                              </p>
+                                            </div>
+            
+                                            <div class="col-lg-1 col-md-1 col-sm-1" >
+                                              <span id="t1"><div align="center"><img src="../imagenes/eventos/pastel9.jpg" alt="cake"></div></span>
+                                              <br><div class="nombre">Rodeo  <strong>$550</strong></div>
+                                              </div>
+                                            
+                                              <div class="col-lg-2 col-md-2 col-sm-2">
+                                                <div class="info">
+                                                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                                                    <input type="hidden" name="cmd" value="_cart">
+                                                    <input type="hidden" name="business" value="keikreposteriaa@hotmail.com">
+                                                    <input type="hidden" name="lc" value="US">
+                                                    <input type="hidden" name="item_name" value="Rodeo">
+                                                    <input type="hidden" name="amount" value="550.00">
+                                                    <input type="hidden" name="currency_code" value="MXN">
+                                                    <input type="hidden" name="button_subtype" value="products">
+                                                    <input type="hidden" name="no_note" value="0">
+                                                    <input type="hidden" name="tax_rate" value="8.000">
+                                                    <input type="hidden" name="shipping" value="50.00">
+                                                    <input type="hidden" name="add" value="1">
+                                                    <input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest">
+                                                    <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+                                                    <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                                                    </form>
+                                                    
+                                                  </div>
+                                                <br><br><p><strong>Pan:</strong> Chocolate<br>
+                                                  <strong>Relleno:</strong> Queso crema con nuez<br>
+                                                  <strong>Cobertura:</strong> Fondant<br>
+                                                  <strong>Betún:</strong> Mantequilla<br>
+                                                  <strong>Personas:</strong> 20<br><br>
+                                                  <br><br><br>
+                                                  </p>
+                                                </div>
+            
+                                                <div class="col-lg-1 col-md-1 col-sm-1" >
+                                                  <span id="t1"><div align="center"><img src="../imagenes/eventos/pastel1.jpg" alt="cake"></div></span>
+                                                  <br><div class="nombre">Revelación  <strong>$400</strong></div>
+                                                  </div>
+                                                
+                                                  <div class="col-lg-2 col-md-2 col-sm-2">
+                                                    <div class="info">
+                                                      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                                                        <input type="hidden" name="cmd" value="_cart">
+                                                        <input type="hidden" name="business" value="keikreposteriaa@hotmail.com">
+                                                        <input type="hidden" name="lc" value="US">
+                                                        <input type="hidden" name="item_name" value="Revelacion">
+                                                        <input type="hidden" name="amount" value="450.00">
+                                                        <input type="hidden" name="currency_code" value="MXN">
+                                                        <input type="hidden" name="button_subtype" value="products">
+                                                        <input type="hidden" name="no_note" value="0">
+                                                        <input type="hidden" name="tax_rate" value="8.000">
+                                                        <input type="hidden" name="shipping" value="50.00">
+                                                        <input type="hidden" name="add" value="1">
+                                                        <input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest">
+                                                        <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+                                                        <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                                                        </form>
+                                                      </div>
+                                                    <br><br>
+                                                    <p><strong>Pan:</strong> Vainilla color azul o rosa<br><br>
+                                                      <strong>Relleno:</strong> Queso crema con fresas<br><br>
+                                                      <strong>Cobertura:</strong> Fondant<br><br>
+                                                      <strong>Personas:</strong> 15 
+                                                      <br><br><br>
+                                                    </p>
+                                                    </div>
+
+                                                    <div class="col-lg-1 col-md-1 col-sm-1" >
+                                                      <span id="t1"><div align="center"><img src="../imagenes/eventos/pastel14.jpg" alt="cake"></div></span>
+                                                      <br><div class="nombre">Loteria  <strong>$450</strong></div>
+                                                      </div>
+                                                    
+                                                      <div class="col-lg-2 col-md-2 col-sm-2">
+                                                        <div class="info">
+                                                          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                                                            <input type="hidden" name="cmd" value="_cart">
+                                                            <input type="hidden" name="business" value="keikreposteriaa@hotmail.com">
+                                                            <input type="hidden" name="lc" value="US">
+                                                            <input type="hidden" name="item_name" value="Loteria">
+                                                            <input type="hidden" name="amount" value="450.00">
+                                                            <input type="hidden" name="currency_code" value="MXN">
+                                                            <input type="hidden" name="button_subtype" value="products">
+                                                            <input type="hidden" name="no_note" value="0">
+                                                            <input type="hidden" name="tax_rate" value="8.000">
+                                                            <input type="hidden" name="shipping" value="50.00">
+                                                            <input type="hidden" name="add" value="1">
+                                                            <input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest">
+                                                            <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+                                                            <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                                                            </form>
+                                                          </div>
+                                                        <br><br>
+                                                        <p><strong>Pan:</strong> Chocolate<br><br>
+                                                          <strong>Relleno:</strong> Cajetas<br><br>
+                                                          <strong>Betún:</strong> Mantequilla<br><br>
+                                                          <strong>Personas:</strong> 20 
+                                                          <br><br><br>
+                                                        </p>
+                                                        </div>
+
+                                                        <div class="col-lg-1 col-md-1 col-sm-1" >
+                                                          <span id="t1"><div align="center"><img src="../imagenes/eventos/pastel51.jpg" alt="cake"></div></span>
+                                                          <br><div class="nombre">Chocolate Lover  <strong>$450</strong></div>
+                                                          </div>
+                                                        
+                                                          <div class="col-lg-2 col-md-2 col-sm-2">
+                                                            <div class="info">
+                                                              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                                                                <input type="hidden" name="cmd" value="_cart">
+                                                                <input type="hidden" name="business" value="keikreposteriaa@hotmail.com">
+                                                                <input type="hidden" name="lc" value="US">
+                                                                <input type="hidden" name="item_name" value="Chocolate Lover">
+                                                                <input type="hidden" name="amount" value="450.00">
+                                                                <input type="hidden" name="currency_code" value="MXN">
+                                                                <input type="hidden" name="button_subtype" value="products">
+                                                                <input type="hidden" name="no_note" value="0">
+                                                                <input type="hidden" name="tax_rate" value="8.000">
+                                                                <input type="hidden" name="shipping" value="50.00">
+                                                                <input type="hidden" name="add" value="1">
+                                                                <input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest">
+                                                                <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+                                                                <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                                                                </form>
+                                                              </div>
+                                                            <br><br>
+                                                            <p><strong>Pan:</strong> Chocolate<br><br>
+                                                              <strong>Relleno:</strong> Chocolate con nuez<br><br>
+                                                              <strong>Betún:</strong> Chocolate<br><br>
+                                                              <strong>Personas:</strong> 15 
+                                                              <br><br><br>
+                                                            </p>
+                                                            </div>       
+
+                                                            <div class="col-lg-1 col-md-1 col-sm-1" >
+                                                              <span id="t1"><div align="center"><img src="../imagenes/eventos/pastel15.jpg" alt="cake"></div></span>
+                                                              <br><div class="nombre">Motorcycle  <strong>$380</strong></div>
+                                                              </div>
+                                                            
+                                                              <div class="col-lg-2 col-md-2 col-sm-2">
+                                                                <div class="info">
+                                                                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                                                                    <input type="hidden" name="cmd" value="_cart">
+                                                                    <input type="hidden" name="business" value="keikreposteriaa@hotmail.com">
+                                                                    <input type="hidden" name="lc" value="US">
+                                                                    <input type="hidden" name="item_name" value="Motorcycle">
+                                                                    <input type="hidden" name="amount" value="380.00">
+                                                                    <input type="hidden" name="currency_code" value="MXN">
+                                                                    <input type="hidden" name="button_subtype" value="products">
+                                                                    <input type="hidden" name="no_note" value="0">
+                                                                    <input type="hidden" name="tax_rate" value="8.000">
+                                                                    <input type="hidden" name="shipping" value="50.00">
+                                                                    <input type="hidden" name="add" value="1">
+                                                                    <input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest">
+                                                                    <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+                                                                    <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                                                                    </form>
+                                                                    
+                                                                  </div>
+                                                                <br><br>
+                                                                <p><strong>Pan:</strong> Chocolate<br>
+                                                                  <strong>Relleno:</strong>Chocolate con nuez<br>
+                                                                  <strong>Cobertura:</strong> Fondant<br>
+                                                                  <strong>Betún:</strong> Mantequilla <br>
+                                                                  <strong>Personas:</strong> 15 
+                                                                  <br><br><br>
+                                                                </p>
+                                                                </div> 
+
+        <br>
+        <h3>Puedes <strong>Personaliza tu topper para sorprender a esa persona especial</strong></h3>
+          <span id="t4"><div align="center"><img src="../imagenes/toppers/top5.jpg" alt="cake">
+            <img src="../imagenes/toppers/top6.jpg" alt="cake">
+            <img src="../imagenes/toppers/top7.jpg" alt="cake">
+            <img src="../imagenes/toppers/top8.jpg" alt="cake"></div></span>
+            
+
+            
+<br><br>
+         <div class="abajo">  
+            <table class="table2">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th id="name" scope="col">κέικ</th>
+                  <th id="name2" scope="col">Servicio a Domicilio</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row"></th>
+                  <td id="desc">Pesqueria, Nuevo León, México <br></td>
+                  <td id="desc">Pasa por el o recibe tus pedidos hasta tu casa. </td>
+                  <td id="name3">¡Siguenos en nuestras redes!
+                  <a href="https://www.facebook.com/keikbyk/?ref=page_internal" target="_blank"><img src="../imagenes/fbicon.png" alt="Facebook"></a>
+                 <a href="https://www.instagram.com/keikbyk/?hl=es-la" target="_blank"><img src="../imagenes/inicon.png" alt="Instagram"></a></td>
+          
+                </tr>
+                <tr></tr>
+                <tr>
+                  <th scope="row"></th>
+                  <td id="desc">Agenda tu cita - Hechos con amor
+                    <img id="heart" src="../imagenes/heart.png" alt="corazon">
+                  </td>
+                  <td id="desc">Pregunta por los costos de envio</td>
+                 
+                </tr>
+              </tbody>
+            </table>
+              
+        </div>
+
+
     
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
