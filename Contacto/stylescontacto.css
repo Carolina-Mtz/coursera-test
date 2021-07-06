@@ -120,6 +120,8 @@ button{
 /*End form*/
 
 
+
+
 /* footer*/
 a img{
     width: 10px;
@@ -197,6 +199,12 @@ tr th{
         float: left;
         
       }
+
+      .col-md-6{
+        width: 100%;
+        float: center;
+        margin-left: 370px;
+      }
     
 }
 
@@ -221,6 +229,12 @@ tr th{
       float: center;
       
     }
+
+    .col-md-6{
+      width: 100%;
+      float: center;
+      margin-left: 220px;
+    }
  
   
 }
@@ -230,6 +244,11 @@ tr th{
     margin: 20px;
     width: 95%;
   
+}
+
+.col-md-6{
+  width: 100%;
+  float: center;
 }
 }
 
