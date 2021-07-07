@@ -276,6 +276,12 @@ body {
   margin: 0 auto;
 }
 
+.marcas{
+  width: 100px;
+  height: 80px;
+  margin-top: 15px
+ }
+
 
   
   /* Simple Responsive Framework. */
@@ -285,7 +291,7 @@ body {
   
   /********** Large devices only **********/
   @media (min-width: 992px){
-    .col-md-1, .col-md-2, .col-md-3{
+    .col-md-1, .col-md-2, .col-md-3, .col-md-7, .col-md-8, .col-md-8, .col-md-10, .col-md-11, .col-md-12, .col-md-14{
         margin: 16px;
         
     
@@ -307,6 +313,45 @@ body {
         float: left;
         
       }
+
+      .col-md-7 {
+        width: 12%;
+        float: left;
+        
+      }
+      .col-md-8 {
+        width: 12%;
+        float: left;
+        
+      }
+  
+      .col-md-9 {
+        width: 12%;
+        float: left;
+        
+      }
+      .col-md-10 {
+          width: 12%;
+          float: left;
+          
+        }
+
+        .col-md-11 {
+          width: 12%;
+          float: left;
+          
+        }
+    
+        .col-md-12 {
+          width: 12%;
+          float: left;
+          
+        }
+        .col-md-13 {
+            width: 12%;
+            float: left;
+            
+          }
       
   }
   
@@ -334,6 +379,44 @@ body {
       .boton{
         width: 40%; 
     }
+
+    .col-lg-7 {
+      width: 22%;
+      float: left;
+    }
+    .col-lg-8 {
+      width: 22%;
+      float: left;
+      
+    }
+    .col-md-9 {
+        width: 22%;
+        float: left;
+        
+      }
+
+      .col-md-10 {
+        width: 22%;
+        float: left;
+        
+      }
+
+      .col-md-11 {
+        width: 22%;
+        float: left;
+        
+      }
+  
+      .col-md-12 {
+        width: 22%;
+        float: left;
+        
+      }
+      .col-md-13 {
+          width: 22%;
+          float: left;
+          
+        }
    
     
   }
@@ -344,6 +427,44 @@ body {
       width: 95%;
     
   }
+
+  .col-lg-7 {
+    width: 22%;
+    float: left;
+  }
+  .col-lg-8 {
+    width: 22%;
+    float: left;
+    
+  }
+  .col-md-9 {
+      width: 22%;
+      float: left;
+      
+    }
+
+    .col-md-10 {
+      width: 22%;
+      float: left;
+      
+    }
+
+    .col-md-11 {
+      width: 22%;
+      float: left;
+      
+    }
+
+    .col-md-12 {
+      width: 22%;
+      float: left;
+      
+    }
+    .col-md-13 {
+        width: 22%;
+        float: left;
+        
+      }
 
   .boton{
     width: 40%; 
